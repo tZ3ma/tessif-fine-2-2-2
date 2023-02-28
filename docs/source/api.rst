@@ -3,7 +3,7 @@
 API
 ===
 
-.. automodule:: tessif_pypsa_0_19_3
+.. automodule:: tessif_fine_2_2_2
    :members:
    :show-inheritance:
 

@@ -1,2 +1,2 @@
-# tessif_pypsa_0_19_3/tests/__init__.py
-"""tessif-pypsa-0-19-3's (pytest) package."""
+# tessif_fine_2_2_2/tests/__init__.py
+"""tessif-fine-2-2-2's (pytest) package."""

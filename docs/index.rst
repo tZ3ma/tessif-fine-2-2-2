@@ -1,7 +1,7 @@
-tessif-pypsa-0-19-3
+tessif-fine-2-2-2
 =================================================================================================
 
-tessif-pypsa-0-19-3 has been developed as part of the Tessif project.
+tessif-fine-2-2-2 has been developed as part of the Tessif project.
 
 It uses the excellent Hypermodern-Python_ project foundation proposed by
 `Claudio Jolowicz <cj>`_.

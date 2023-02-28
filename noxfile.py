@@ -40,7 +40,7 @@ nox.options.sessions = (
 #         session.install(f"--constraint={requirements.name}", *args, **kwargs)
 
 
-@nox_poetry.session(python="3.10")
+@nox_poetry.session(python="3.8")
 def tests(session):
     """Run test suite."""
     args = session.posargs or [
@@ -63,7 +63,7 @@ def tests(session):
 locations = "src", "tests", "noxfile.py", "docs/conf.py"
 
 
-@nox_poetry.session(python="3.10")
+@nox_poetry.session(python="3.8")
 def lint(session):
     """Lint using flake8."""
     args = session.posargs or locations
@@ -84,7 +84,7 @@ def lint(session):
     session.run("flake8", *args)
 
 
-@nox_poetry.session(python="3.10")
+@nox_poetry.session(python="3.8")
 def pylint(session):
     """Lint using pylint."""
     args = session.posargs or locations
@@ -99,7 +99,7 @@ def pylint(session):
     session.run("pylint", "--output-format=colorized", "--recursive=y", *args)
 
 
-@nox_poetry.session(python="3.10")
+@nox_poetry.session(python="3.8")
 def black(session):
     """Reformat code using black."""
     args = session.posargs or locations
@@ -107,16 +107,16 @@ def black(session):
     session.run("black", *args)
 
 
-@nox_poetry.session(python="3.10")
+@nox_poetry.session(python="3.8")
 def xdoctest(session):
     """Run examples with xdoctest."""
     args = session.posargs or ["all"]
     session.run("poetry", "install", "--no-dev", external=True)
     session.install("xdoctest", "pygments")
-    session.run("python", "-m", "xdoctest", "tessif_pypsa_0_19_3", *args)
+    session.run("python", "-m", "xdoctest", "tessif_fine_2_2_2", *args)
 
 
-@nox_poetry.session(python="3.10")
+@nox_poetry.session(python="3.8")
 def docs(session):
     """Build the documentation."""
     session.run("poetry", "install", "--no-dev", external=True)
@@ -131,7 +131,7 @@ def docs(session):
     session.run("sphinx-build", "docs", "docs/_build")
 
 
-@nox_poetry.session(python="3.10")
+@nox_poetry.session(python="3.8")
 def docs_live(session):
     """Build and serve the documentation with live reloading on changes."""
     args = session.posargs or ["--open-browser", "docs", "docs/_build"]
@@ -153,7 +153,7 @@ def docs_live(session):
     session.run("sphinx-autobuild", *args)
 
 
-@nox_poetry.session(python="3.10")
+@nox_poetry.session(python="3.8")
 def docs_rebuild(session):
     """Rebuild the entire sphinx documentation."""
     session.run("poetry", "install", "--no-dev", external=True)
@@ -172,14 +172,14 @@ def docs_rebuild(session):
     session.run("sphinx-build", "docs", "docs/_build")
 
 
-@nox_poetry.session(python="3.10")
+@nox_poetry.session(python="3.8")
 def coverage(session):
     """Produce coverage report."""
     session.install("coverage[toml]", "codecov")
     session.run("coverage", "xml", "--fail-under=0")
 
 
-@nox_poetry.session(python="3.10")
+@nox_poetry.session(python="3.8")
 def codecov(session):
     """Produce coverage report and try uploading to codecov."""
     session.install("coverage[toml]", "codecov")
@@ -187,7 +187,7 @@ def codecov(session):
     session.run("codecov", *session.posargs)
 
 
-@nox_poetry.session(name="pre-commit", python="3.10")
+@nox_poetry.session(name="pre-commit", python="3.8")
 def precommit(session):
     """Lint using pre-commit."""
     args = session.posargs or ["run", "--all-files", "--show-diff-on-failure"]
@@ -215,7 +215,7 @@ def precommit(session):
     session.run("pre-commit", *args)
 
 
-@nox_poetry.session(python="3.10")
+@nox_poetry.session(python="3.8")
 def safety(session):
     """Scan dependencies for insecure packages using safety."""
     with tempfile.NamedTemporaryFile() as requirements:

@@ -3,6 +3,6 @@
 Transform
 =========
 
-.. automodule:: tessif_pypsa_0_19_3.transform
+.. automodule:: tessif_fine_2_2_2.transform
    :members:
    :show-inheritance:

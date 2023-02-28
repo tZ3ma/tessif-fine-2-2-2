@@ -1,4 +1,4 @@
-tessif-pypsa-0-19-3
+tessif-fine-2-2-2
 ====================================================================================================
 
 |PyPI| |Python Version| |License| |Status|
@@ -11,68 +11,68 @@ tessif-pypsa-0-19-3
 
 |pre-commit| |Black| |Pylint| |Flake8|
 
-.. |PyPI| image:: https://img.shields.io/pypi/v/tessif-pypsa-0-19-3.svg
-   :target: https://pypi.org/project/tessif-pypsa-0-19-3/
+.. |PyPI| image:: https://img.shields.io/pypi/v/tessif-fine-2-2-2.svg
+   :target: https://pypi.org/project/tessif-fine-2-2-2/
    :alt: PyPI
 
-.. |Python Version| image:: https://img.shields.io/pypi/pyversions/tessif-pypsa-0-19-3
-   :target: https://pypi.org/project/tessif-pypsa-0-19-3
+.. |Python Version| image:: https://img.shields.io/pypi/pyversions/tessif-fine-2-2-2
+   :target: https://pypi.org/project/tessif-fine-2-2-2
    :alt: Python Version
 
-.. |License| image:: https://img.shields.io/pypi/l/tessif-pypsa-0-19-3
+.. |License| image:: https://img.shields.io/pypi/l/tessif-fine-2-2-2
    :target: https://opensource.org/licenses/MIT
    :alt: License
 
 .. |Status| image:: https://badgen.net/badge/status/alpha/d8624d
-   :target: https://pypi.org/project/tessif-pypsa-0-19-3/
+   :target: https://pypi.org/project/tessif-fine-2-2-2/
    :alt: Status
 
-.. |Stable Release| image:: https://github.com/tZ3ma/tessif-pypsa-0-19-3/workflows/Stable-PyPI-Release/badge.svg
-   :target: https://github.com/tZ3ma/tessif-pypsa-0-19-3/actions?workflow=Stable-PyPI-Release
+.. |Stable Release| image:: https://github.com/tZ3ma/tessif-fine-2-2-2/workflows/Stable-PyPI-Release/badge.svg
+   :target: https://github.com/tZ3ma/tessif-fine-2-2-2/actions?workflow=Stable-PyPI-Release
    :alt: Stable PyPI Release Workflow Status
 
-.. |Develop Release| image:: https://github.com/tZ3ma/tessif-pypsa-0-19-3/workflows/Develop-TestPyPI-Release/badge.svg
-   :target: https://github.com/tZ3ma/tessif-pypsa-0-19-3/actions?workflow=Develop-TestPyPI-Release
+.. |Develop Release| image:: https://github.com/tZ3ma/tessif-fine-2-2-2/workflows/Develop-TestPyPI-Release/badge.svg
+   :target: https://github.com/tZ3ma/tessif-fine-2-2-2/actions?workflow=Develop-TestPyPI-Release
    :alt: Develop TestPyPI Release Workflow Status
 
-.. |Read the Docs| image:: https://img.shields.io/readthedocs/tessif-pypsa-0-19-3/latest.svg?label=Read%20the%20Docs
-   :target: https://tessif-pypsa-0-19-3.readthedocs.io/
-   :alt: Read the documentation at https://tessif-pypsa-0-19-3.readthedocs.io/
+.. |Read the Docs| image:: https://img.shields.io/readthedocs/tessif-fine-2-2-2/latest.svg?label=Read%20the%20Docs
+   :target: https://tessif-fine-2-2-2.readthedocs.io/
+   :alt: Read the documentation at https://tessif-fine-2-2-2.readthedocs.io/
 
-.. |Tests| image:: https://github.com/tZ3ma/tessif-pypsa-0-19-3/workflows/Tests-and-Coverage/badge.svg
-   :target: https://github.com/tZ3ma/tessif-pypsa-0-19-3/actions?workflow=Tests-and-Coverage
+.. |Tests| image:: https://github.com/tZ3ma/tessif-fine-2-2-2/workflows/Tests-and-Coverage/badge.svg
+   :target: https://github.com/tZ3ma/tessif-fine-2-2-2/actions?workflow=Tests-and-Coverage
    :alt: Tests Workflow Status
 
-.. |Safety| image:: https://github.com/tZ3ma/tessif-pypsa-0-19-3/workflows/Safety/badge.svg
-   :target: https://github.com/tZ3ma/tessif-pypsa-0-19-3/actions?workflow=Safety
+.. |Safety| image:: https://github.com/tZ3ma/tessif-fine-2-2-2/workflows/Safety/badge.svg
+   :target: https://github.com/tZ3ma/tessif-fine-2-2-2/actions?workflow=Safety
    :alt: Safety Workflow Status
 
-.. |Pylinting| image:: https://github.com/tZ3ma/tessif-pypsa-0-19-3/workflows/Pylinting/badge.svg
-   :target: https://github.com/tZ3ma/tessif-pypsa-0-19-3/actions?workflow=Pylinting
+.. |Pylinting| image:: https://github.com/tZ3ma/tessif-fine-2-2-2/workflows/Pylinting/badge.svg
+   :target: https://github.com/tZ3ma/tessif-fine-2-2-2/actions?workflow=Pylinting
    :alt: Pylint Workflow Status
 
-.. |Flake8 Linting| image:: https://github.com/tZ3ma/tessif-pypsa-0-19-3/workflows/Flake8-Linting/badge.svg
-   :target: https://github.com/tZ3ma/tessif-pypsa-0-19-3/actions?workflow=Flake8-Linting
+.. |Flake8 Linting| image:: https://github.com/tZ3ma/tessif-fine-2-2-2/workflows/Flake8-Linting/badge.svg
+   :target: https://github.com/tZ3ma/tessif-fine-2-2-2/actions?workflow=Flake8-Linting
    :alt: Flake8-Linting Workflow Status
 
-.. |Pre-Commit| image:: https://github.com/tZ3ma/tessif-pypsa-0-19-3/workflows/Pre-Commit/badge.svg
-   :target: https://github.com/tZ3ma/tessif-pypsa-0-19-3/actions?workflow=Pre-Commit
+.. |Pre-Commit| image:: https://github.com/tZ3ma/tessif-fine-2-2-2/workflows/Pre-Commit/badge.svg
+   :target: https://github.com/tZ3ma/tessif-fine-2-2-2/actions?workflow=Pre-Commit
    :alt: Pre-Commit Workflow Status
 
-.. |Codecov| image:: https://codecov.io/gh/tZ3ma/tessif-pypsa-0-19-3/branch/main/graph/badge.svg
-   :target: https://codecov.io/gh/tZ3ma/tessif-pypsa-0-19-3
+.. |Codecov| image:: https://codecov.io/gh/tZ3ma/tessif-fine-2-2-2/branch/main/graph/badge.svg
+   :target: https://codecov.io/gh/tZ3ma/tessif-fine-2-2-2
    :alt: Codecov
 
 .. |Codacy| image:: https://app.codacy.com/project/badge/Grade/b278433bb9224147a2e6231d783b62e4
-   :target: https://app.codacy.com/gh/tZ3ma/tessif-pypsa-0-19-3/dashboard
+   :target: https://app.codacy.com/gh/tZ3ma/tessif-fine-2-2-2/dashboard
    :alt: Codacy Code Quality Status
 
 .. |Codeclimate| image:: https://api.codeclimate.com/v1/badges/ff119252f0bb7f40aecb/maintainability
-   :target: https://codeclimate.com/github/tZ3ma/tessif-pypsa-0-19-3/maintainability
+   :target: https://codeclimate.com/github/tZ3ma/tessif-fine-2-2-2/maintainability
    :alt: Maintainability
 
-.. |Scrutinizer| image:: https://scrutinizer-ci.com/g/tZ3ma/tessif-pypsa-0-19-3/badges/quality-score.png?b=main
-   :target: https://scrutinizer-ci.com/g/tZ3ma/tessif-pypsa-0-19-3/
+.. |Scrutinizer| image:: https://scrutinizer-ci.com/g/tZ3ma/tessif-fine-2-2-2/badges/quality-score.png?b=main
+   :target: https://scrutinizer-ci.com/g/tZ3ma/tessif-fine-2-2-2/
    :alt: Scrutinizer Code Quality
 
 .. |pre-commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
@@ -117,7 +117,7 @@ License
 -------
 
 Distributed under the terms of the `MIT license`_ (`Github Repo Link`_),
-*tessif-pypsa-0-19-3* is free and open source software.
+*tessif-fine-2-2-2* is free and open source software.
 
 
 Issues
@@ -139,7 +139,7 @@ Hypermodern-Python_ project foundation proposed by `Claudio Jolowicz <cj>`_.
 .. _MIT license: https://opensource.org/licenses/MIT
 .. _PyPI: https://pypi.org/
 
-.. _file an issue: https://github.com/tZ3ma/tessif-pypsa-0-19-3/issues
+.. _file an issue: https://github.com/tZ3ma/tessif-fine-2-2-2/issues
 .. _pip: https://pip.pypa.io/
 
 .. _tZ3ma: https://github.com/tZ3ma
@@ -148,4 +148,4 @@ Hypermodern-Python_ project foundation proposed by `Claudio Jolowicz <cj>`_.
 .. _Installation Guide: docs/source/getting_started/installation.rst
 .. _Workflow-Guide: docs/source/developer_guide/workflows.rst
 
-.. _Github Repo Link: https://github.com/tZ3ma/tessif-pypsa-0-19-3
+.. _Github Repo Link: https://github.com/tZ3ma/tessif-fine-2-2-2

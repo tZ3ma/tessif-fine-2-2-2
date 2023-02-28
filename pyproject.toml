@@ -1,18 +1,18 @@
 [tool.poetry]
-name = "tessif-pypsa-0-19-3"
-version = "0.0.1"
-description = "Tessif-Plugin for providing pypsa version 0.19.3 support."
+name = "tessif-fine-2-2-2"
+version = "0.1.0"
+description = "Tessif-Plugin for providing FINE 2.2.2 support."
 authors = ["Mathias Ammon <tz3ma.coding@use.startmail.com>"]
 license = "MIT"
 readme = "README.rst"
-repository = "https://github.com/tZ3ma/tessif_pypsa_0_19_3"
-homepage = "https://github.com/tZ3ma/tessif_pypsa_0_19_3"
-keywords = ["Tessif", "Tessif-PyPSA", "ESSMOS", "optimization", "energy supply system modelling"]
+repository = "https://github.com/tZ3ma/tessif_fine_2_2_2"
+homepage = "https://github.com/tZ3ma/tessif_fine_2_2_2"
+keywords = ["Tessif", "Tessif-FiNE", "ESSMOS", "optimization", "energy supply system modelling"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-pypsa = "0.19.3"
-tessif = ">=0.0.24"
+python = ">=3.8,<3.9"
+fine = "2.2.2"
+tessif = ">=0.0.25"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.2"
@@ -34,13 +34,14 @@ sphinx-paramlinks = "^0.5.2"
 pylint = "^2.14.0"
 nox = "^2022.1.7"
 nox-poetry = "^1.0.2"
+tessif-examples = ">=0.3.1"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
 
 [tool.coverage.run]
 branch = true
-source = ["tessif_pypsa_0_19_3"]
+source = ["tessif_fine_2_2_2"]
 
 [tool.coverage.report]
 show_missing = true

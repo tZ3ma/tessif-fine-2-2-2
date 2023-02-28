@@ -15,16 +15,16 @@ Latest Stable Version
 ^^^^^^^^^^^^^^^^^^^^^
 .. code-block:: console
 
-   $ pip install tessif-pypsa-0-19-3
+   $ pip install tessif-fine-2-2-2
 
 Latest Development Version (potentially unstable)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: console
 
-   $ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ tessif-pypsa-0-19-3
+   $ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ tessif-fine-2-2-2
 
-This installs the TestPyPI_ version of :code:`tessif-pypsa-0-19-3` while resolving the dependencies on PyPI_.
+This installs the TestPyPI_ version of :code:`tessif-fine-2-2-2` while resolving the dependencies on PyPI_.
 
 .. _PyPI: https://pypi.org/
 .. _TestPyPI: https://test.pypi.org/
