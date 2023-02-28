@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tessif-fine-2-2-2"
-version = "0.1.0"
+version = "0.1.1"
 description = "Tessif-Plugin for providing FINE 2.2.2 support."
 authors = ["Mathias Ammon <tz3ma.coding@use.startmail.com>"]
 license = "MIT"
