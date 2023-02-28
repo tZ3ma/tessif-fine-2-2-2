@@ -1267,9 +1267,7 @@ class LoadResultier(FINEResultier, base.LoadResultier):
                 commodity_factors_rev = getattr(
                     cmp_input[connector_rev], "commodityConversionFactors"
                 )
-                conv_out_rev = {
-                    k: v for k, v in commodity_factors_rev.items() if v > 0
-                }
+                conv_out_rev = {k: v for k, v in commodity_factors_rev.items() if v > 0}
                 for conv_rev in conv_out_rev:
                     # related to the original grid
                     grid = conv_rev.partition(".")[0]

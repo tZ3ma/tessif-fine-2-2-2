@@ -55,6 +55,7 @@ def tests(session):
         "pytest",
         "pytest-cov",
         "pytest-mock",
+        "tessif-examples",
     )
     session.run("pytest", *args)
 

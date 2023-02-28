@@ -742,7 +742,7 @@ def create_FINE_busses(tessif_es):
 
     for bus in tessif_busses:
         cmp = bus
-        commodity = ''
+        commodity = ""
 
         # Grid commodities should always be the same
         for interface in cmp.interfaces:
@@ -989,7 +989,7 @@ def create_FINE_storages(tessif_es):
     fine_storages_dicts = list()
     for storage in tessif_storages:
         cmp = storage
-        commodity = ''
+        commodity = ""
 
         # Component commodity needs to fit the grid commodity uid
         for grid in tessif_es.busses:
@@ -1088,8 +1088,8 @@ def create_FINE_connectors(tessif_es):
             outflow = conversion[1]
 
             # physicalUnit representing the connector output
-            physicalUnit = ''
-            grid_com = ''
+            physicalUnit = ""
+            grid_com = ""
             for grid in tessif_es.busses:
                 if grid.uid.name == outflow:
                     for output in grid.outputs:
